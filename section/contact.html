@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About page</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+    <div class="scroll_to_top">
+      <header class="header">
+        <img src="../img/prince-radadiya-logo.png" alt="logo" class="logo" />
+
+        <nav class="navbar">
+          <ul class="navbar-lists">
+            <li>
+              <a href="../index.html" class="navbar-link home-link">Home</a>
+            </li>
+            <li>
+              <a href="../section/about.html" class="navbar-link About-link"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="../section/services.html"
+                class="navbar-link service-link"
+                >services</a
+              >
+            </li>
+            <li>
+              <a
+                href="/section/Potfolio.html"
+                class="navbar-link portfolio-link"
+                >portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#" class="navbar-link contact-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+      </header>
+    </div>
+
+    <section class="section section-contact">
+      <div class="container">
+        <h2 class="common-heading">Contact US</h2>
+      </div>
+
+      <!-- map -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5035.868459916265!2d72.89102034454856!3d21.24964817980618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f53a0aafa85%3A0x2a27a9f8f2dea109!2zMjHCsDE0JzU3LjkiTiA3MsKwNTMnMjcuOCJF!5e0!3m2!1sen!2sin!4v1668851462018!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <div class="section-contact-main contact-container">
+        <form action="#">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="username"
+                placeholder="username"
+                id="username"
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                placeholder="demo@gmail.com"
+                id="email"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="subject"
+              id="subject"
+            />
+          </div>
+          <div>
+            <label for="textarea"></label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <input type="submit" name="submit" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="section-footer section">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>about</h3>
+          <p>
+            Be courageous. Challenge orthodoxy. Stand up for what you believe
+            in. When you are in your rocking chair talking to your grandchildren
+            many years from now, be sure you have a good story to tell
+          </p>
+        </div>
+
+        <!-- end -->
+        <div class="f-links">
+          <h3>links</h3>
+          <ul>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Aboout</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+
+        <div class="f-services">
+          <h3>services</h3>
+          <ul>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">web design</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Web Development</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Main Project</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Online Class</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Youtube course</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+
+        <div class="f-address">
+          <h3>Have a Qus etions</h3>
+          <address>
+            <div>
+              <p>
+                <span> <ion-icon name="location-outline"></ion-icon></span>
+                surat, India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span> <ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+919737070575">+91 9737070575</a>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:radadiyaprince1@gmail.com"
+                  >radadiyaprince1@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="prince">
+        <div>
+          <div class="f-social-icons">
+            <a href="https://www.instagram.com/prince_radadiya_01/" target="_blank">
+              <ion-icon class="icons" name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <ion-icon class="icons" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <ion-icon class="icons" name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+          <div class="f-credits">
+            <p>Copyright @2022:prince.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>services page</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+    <div class="scroll_to_top">
+      <header class="header">
+        <img src="../img/prince-radadiya-logo.png" alt="logo" class="logo" />
+
+        <nav class="navbar">
+          <ul class="navbar-lists">
+            <li>
+              <a href="../index.html" class="navbar-link home-link">Home</a>
+            </li>
+            <li>
+              <a href="../section/about.html" class="navbar-link About-link"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="../section/services.html"
+                class="navbar-link service-link"
+                >services</a
+              >
+            </li>
+            <li>
+              <a
+                href="../section/Potfolio.html"
+                class="navbar-link portfolio-link"
+                >portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="../section/contact.html"
+                class="navbar-link contact-link"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+      </header>
+    </div>
+
+    <section class="section-biodata section">
+      <div class="container grid grid-two-column">
+        <div class="bio-image">
+          <img src="../img/princu.jpeg" alt="prince radadiya" />
+        </div>
+        <div class="bio-data">
+          <h2 class="common-heading">My bio-data</h2>
+          <p>
+            "When you have a dream, you've got to grab it and never let go.".
+            The silence can speak volumes without ever saying a word.
+          </p>
+          <br />
+          <p>
+            “Two roads diverged in a wood, and I—I took the one less traveled
+            by, And that has made all the difference.”
+          </p>
+
+          <div class="bio-data-stats">
+            <div class="bio-stats">
+              <h3>Design</h3>
+              <div class="bio-progress-bar">
+                <span>80%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>HTML</h3>
+              <div class="bio-progress-bar bio-progress-2">
+                <span>99%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>CSS</h3>
+              <div class="bio-progress-bar bio-progress-3">
+                <span>90%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>JavaScript</h3>
+              <div class="bio-progress-bar bio-progress-4">
+                <span>85%</span>
+              </div>
+            </div>
+
+            <div class="bio-stats">
+              <h3>MERN</h3>
+              <div class="bio-progress-bar bio-progress-5">
+                <span>70%</span>
+              </div>
+            </div>
+          </div>
+          <div class="bio-data-btn">
+            <a href="#" class="btn">Download</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our portfolio  section start-->
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="common-heading">Latest Works</h2>
+        <p>
+          "Be courageous. Challenge orthodoxy. Stand up for what you believe in.
+          When you are in your rocking chair talking to your grandchildren many
+          years from now, be sure you have a good story to tell."
+        </p>
+      </div>
+
+      <div class="p-btns">
+        <div class="btn p-btn" data-btn-num="1">Website</div>
+        <div class="btn p-btn" data-btn-num="2">Youtube</div>
+        <div class="btn p-btn" data-btn-num="3">Design</div>
+      </div>
+
+      <div class="container grid grid-three-column portfolio-image">
+        <div class="img-overlay p-btn--1">
+          <img src="../img/face1.jpg" />
+          <div class="overlay">
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="common-heading"
+              >project 1</a
+            >
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--3">
+          <img src="../img/face2.jpg" />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">project 2</a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1 p-image-not-active">
+          <img src="../img/face3.jpg" />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">project 3</a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1 p-btn-2">
+          <img src="../img/face4.jpg" />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">project 4</a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--2">
+          <img src="../img/face5.jpg" />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">project 5</a>
+          </div>
+        </div>
+
+        <div class="img-overlay p-btn--1">
+          <img src="../img/face6.jpg" />
+          <div class="overlay">
+            <a href="" target="_blank" class="common-heading">project 6</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section-footer section">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>about</h3>
+          <p>
+            Be courageous. Challenge orthodoxy. Stand up for what you believe
+            in. When you are in your rocking chair talking to your grandchildren
+            many years from now, be sure you have a good story to tell
+          </p>
+        </div>
+
+        <!-- end -->
+        <div class="f-links">
+          <h3>links</h3>
+          <ul>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Aboout</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+
+        <div class="f-services">
+          <h3>services</h3>
+          <ul>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">web design</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Web Development</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Main Project</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Online Class</a>
+            </li>
+            <li>
+              <span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </span>
+              <a href="#">Youtube course</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+
+        <div class="f-address">
+          <h3>Have a Qus etions</h3>
+          <address>
+            <div>
+              <p>
+                <span> <ion-icon name="location-outline"></ion-icon></span>
+                surat, India
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span> <ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+919737070575">+91 9737070575</a>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:radadiyaprince1@gmail.com"
+                  >radadiyaprince1@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="prince">
+        <div>
+          <div class="f-social-icons">
+            <a href="https://www.instagram.com/prince_radadiya_01/" target="_blank">
+              <ion-icon class="icons" name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <ion-icon class="icons" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <ion-icon class="icons" name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+          <div class="f-credits">
+            <p>Copyright @2022:prince.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="../js/script.js"></script>
+  </body>
+</html>
